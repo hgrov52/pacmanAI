@@ -1,5 +1,5 @@
 # pacmanAI
-Implementation of both Minimax and Expectimax search to control pacman intelligently. 
+Implementation of Minimax, Alpha Beta Pruning, and Expectimax search to control pacman intelligently. 
 
 ![Alt Text](http://ai.berkeley.edu/images/pacman_game.gif)
 
@@ -43,6 +43,8 @@ within the main directory, you can run these commands.
 * `-q` runs the simulation in the background and doesnt show pacmans project with graphics. This is much faster and useful when running hundreds of simulations.
 
 * `--frameTime 0` can be added to run the siulation at a higher speed, while `--frameTime <1 or higher>` will run the simulation prograssively slower the higher the number. 
+
+
 
 #   
 
