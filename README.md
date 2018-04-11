@@ -39,14 +39,10 @@ within the main directory, you can run these commands.
 * `-a` specifies funciton specific options
   * For alpha beta pruning, depth=X tells the function what depth to expand the game decision tree. 
   * For other agents, evalFN=better uses the more complex evaluation function, which is used when smarter searches cant come up with a move. 
-  
--n is the number of times to run the simulation
--k is the number of ghosts to play against pacman
--a is function specific options
 
 #   
 
-This 
+Running `python autograder.py` grades this assignment, so feel free to see what I got for a grade on this project!
 
 
 
