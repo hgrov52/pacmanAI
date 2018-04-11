@@ -11,7 +11,28 @@ The file that differs from the original project multiAgents.py. All other files 
 within the main directory, you can run these commands. 
 ***Note that this code runs with python 2.7, not python 3.X***
 
-`python pacman.py` 
+`python pacman.py` is the base command but pacman will not move without specifying a few options first:
+
+<img src="https://img.shields.io/badge/required--red.svg" alt="Chat"> 
+* `-p` specifies the type of agent 
+  * ReflexAgent
+  * MinimaxAgent
+  * AlphaBetaAgent
+  * ExpectimaxAgent
+  
+  
+  
+* `-l` specifies the map you want pacman to play on
+  * testClassic 
+  * openClassic 
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -l smallClassic -p ExpectimaxAgent -a evalFn=better -q -n 10
+
 
 #   
 
