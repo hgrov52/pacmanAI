@@ -39,6 +39,10 @@ within the main directory, you can run these commands.
 * `-a` specifies funciton specific options
   * For alpha beta pruning, depth=X tells the function what depth to expand the game decision tree. 
   * For other agents, evalFN=better uses the more complex evaluation function, which is used when smarter searches cant come up with a move. 
+  
+* `-q` runs the simulation in the background and doesnt show pacmans project with graphics. This is much faster and useful when running hundreds of simulations.
+
+* `--frameTime 0` can be added to run the siulation at a higher speed, while `--frameTime <1 or higher>` will run the simulation prograssively slower the higher the number. 
 
 #   
 
