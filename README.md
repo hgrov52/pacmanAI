@@ -13,6 +13,8 @@ within the main directory, you can run these commands.
 
 `python pacman.py` is the base command but pacman will not move without specifying a few options first:
 
+#
+
 <img src="https://img.shields.io/badge/required--red.svg" alt="Chat"> 
 
 * `-p` specifies the type of agent 
@@ -21,7 +23,7 @@ within the main directory, you can run these commands.
   * AlphaBetaAgent
   * ExpectimaxAgent
   
-  
+<img src="https://img.shields.io/badge/optional--blue.svg" alt="Chat"> 
   
 * `-l` specifies the map you want pacman to play on
   * testClassic 
